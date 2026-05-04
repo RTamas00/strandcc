@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            public String Név { get; private set; }
+
         }
     }
-}
+
