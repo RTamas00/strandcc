@@ -19,7 +19,7 @@
                 összeg += item.Ár;
             }
             double átlag = összeg/(double)list.Count;
-            Console.WriteLine("8.feladat\r\nA fürdőbelépők átlagos ára: {átlag}\r\n");
+            Console.WriteLine("8.feladat\r\nA fürdőbelépők átlagos ára: {átlag:F1}\r\n");
 
 
         }
