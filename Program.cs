@@ -12,6 +12,16 @@
             }
             Console.WriteLine("7.feladat:");
             Console.WriteLine($"Fürdők száma: {list.Count}");
+
+            int összeg = 0;
+            foreach (var item in list)
+            {
+                összeg += item.Ár;
+            }
+            double átlag = összeg/(double)list.Count;
+            Console.WriteLine("8.feladat\r\nA fürdőbelépők átlagos ára: {átlag}\r\n");
+
+
         }
     }
 }
