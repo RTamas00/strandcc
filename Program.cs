@@ -10,6 +10,8 @@
             {
                 list.Add(new furdo(s));
             }
+            Console.WriteLine("7.feladat:");
+            Console.WriteLine($"Fürdők száma: {list.Count}");
         }
     }
 }
